@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="exercicio03.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+<body> <center>
+    <h1><center>Cadastro de Usuario</center></h1>
+   <form action="#" method="POST">
+
+    <label for="Nome do Usuario">NOME:</label>
+    <input type="nome" name="nome" id="nome" required placeholder="Digite seu nome">
+    <br>
+    <label for="EMAIL">EMAIL:</label>
+    <input type="email" name="email" id="email" required placeholder="Digite seu email">
+   <br>
+   <label for="SENHA">SENHA:</label>
+  <input type="password" name="senha" id="senha" required placeholder="Digite sua senha">
+<br>
+    <label for="País">PAÍS:</label>
+    <select name="País" id="País">
+        <option value=""disable selected>Selecione um País</option>
+        <option value="Argentina">Argentina</option>
+        <option value="Brasil">Brasil</option>
+        <option value="Chile">Chile</option>
+        <option value="Venezuela">Venezuela</option>
+    </select>
+<br>
+    <label for="Mensagem">MENSAGEM:</label>
+    <textarea name="Mensagem" id="Mensagem" required placeholder="Digite sua mensagem"></textarea>
+    <br>
+<button type="submit">ENVIAR</button>
+<button type="reset">LIMPAR</button>
+</center>
+</form>
+</body>
+</html>
